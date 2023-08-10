@@ -1,0 +1,180 @@
+
+/* Centrar imagen */
+
+/* .container{
+    width:500px;
+    height: 500px;
+    background: url(https://cloudfront-us-east-1.images.arcpublishing.com/infobae/WPIWERU2DFHD7KTW6MUPWLQK24.jpg) ;
+    background-size: cover;
+    background-position: 100% 100%;
+    margin: 0 auto;
+    position: relative;
+} */
+
+
+/* Ejercicio de pseudoclases */
+
+a:hover{
+    background-color: slateblue;
+    color: lightblue;
+}
+
+button:active{
+background-color: darkgreen;
+color: blanchedalmond;
+}
+
+.divpadre .divhijo:first-child {
+    color: blue;
+}
+
+.divpadre .divhijo:last-child{
+    color: blueviolet;
+    font-weight: bold;
+}
+.divpadre .divhijo:nth-child(5n){
+    color: goldenrod;
+    font-weight: bold;
+}
+
+/* Ejercicio de posicionamiento */
+
+/* .div1{
+    width: 200px;
+    height: 200px;
+    background-color: bisque;
+    position: relative;
+    z-index: 10;
+}
+
+.div2{
+    width: 200px;
+    height: 200px;
+    background-color: fuchsia;
+    position: relative;
+    top: -3rem;
+    z-index: 20;
+}
+
+.div3{
+    width: 200px;
+    height: 200px;
+    background-color:darkcyan;
+    position: relative;
+    top: -10rem;
+    z-index: 30;} */
+
+.static-exercise{
+    position: static;
+    background-color: olive;
+    padding: 10px;
+
+}
+
+.relative-exercise{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    background-color: aqua;
+    padding: 25px;
+    }
+
+.contenedor-absoluto {
+    position: relative;
+    top: 30px;
+    width: 200px;
+    height: 200px;
+    background-color: blanchedalmond;
+    }
+
+.absolute-exercise{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    right: 50px;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+.fixed-exercise {
+
+    position: fixed;
+    top: 380px;
+    right: 500px;
+    background-color: salmon;
+    padding: 30px;
+  }
+
+  .sticky-exercise {
+    background-color:hotpink;
+    padding: 40px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+  }
+
+
+  /* Ejercicio de posición de imagen */
+
+.contenedor-div1{
+    width: 300px;
+    height:200px;
+    color: white;
+    background-color: rgb(97, 184, 243);
+}
+
+.contenedor-div1 p{
+    position: relative;
+    top: 10px;
+    left: 180px;
+}
+
+.contenedor-div2{
+    width: 300px;
+    height:200px;
+    color: white;
+    background-color: red;
+    position: absolute;
+    top: 70px;
+    left: 60px;
+}
+
+.contenedor-div2 p{
+    position: relative;
+    top: 5px;
+    left: 200px;
+}
+
+.contenedor-div3{
+    width: 300px;
+    height:200px;
+    color: white;
+    background-color: gray;
+    position: absolute;
+    top: 170px;
+    left: 120px;
+}
+
+.contenedor-div3 p{
+    position: relative;
+    top: 5px;
+    left: 200px;
+}
+
+.contenedor-div4{
+    width: 170px;
+    height:130px;
+    color: white;
+    background-color: rgb(40, 212, 6);
+    position: absolute;
+    top: 100px;
+    left: 80px;
+}
+
+.contenedor-div4 p{
+    position: relative;
+    top: 5px;
+    left: 60px;
+}
+
+
